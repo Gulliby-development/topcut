@@ -1,0 +1,5 @@
+describe("scaffold", function()
+  it("loads the registry", function()
+    assert.are.equal("topcut 0.1.0", require("topcut.registry").VERSION)
+  end)
+end)
